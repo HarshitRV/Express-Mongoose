@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New</title>
+</head>
+<body>
+    <form action="/products/new" method="POST">
+        <div>
+            <label for="name">Name</label>
+        </div>
+        <div>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="price">Price</label>
+        </div>
+        <div>
+            <input type="number" name="price" id="price" step="any">
+        </div>
+
+       <div> 
+            <label for="category">Choose a category</label>
+       </div>
+       <div>
+            <select name="category" id="category">
+                <option value="fruit">Fruit</option>
+                <option value="vegetable">Vegetable</option>
+                <option value="dairy">Dairy</option>
+            </select>
+       </div>
+       <div>
+           <button type="submit">Add</button>
+       </div>
+    </form>
+    <a href="/products">Home</a>
+</body>
+</html>
