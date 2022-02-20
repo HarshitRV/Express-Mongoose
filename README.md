@@ -3,6 +3,6 @@
 This repository is reference to on how to use mongoose with express.
 
 ## Folders
-[Models](models) : Model of the database is stored here.
-[View](views): All the ejs dynamic pages are stored here.
-[app.js](app.js): Main file to run the app.
+[Models](models) : Model of the database is stored here. <br>
+[View](views): All the ejs dynamic pages are stored here.<br>
+[app.js](app.js): Main file to run the app.<br>
